@@ -60,9 +60,33 @@ main {
 	margin-top: 100px;
 }
 
-@media (max-height: 700px) {
+@media (max-width: 580px){
 	main {
 		height: 100%;
+		height: auto;
+		width: 95%;
+	}
+	main .description{
+		font-size: 1.2em;
+		text-align: center;
+	}
+	main .button-box{
+		display: block;
+	}
+	main .button-box h3{
+		width: 90%;
+	}
+	main .border-box{
+		height: auto;
+	}
+	main .button.friends{
+		margin-bottom: 70px;
+	}
+	main .button.value{
+		text-align: center;
+	}
+	main .button{
+		padding: 15px;
 	}
 }
 
